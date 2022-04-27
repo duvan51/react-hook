@@ -1,0 +1,11 @@
+.buttonE{
+    background-color: blue !important;
+    color:white !important;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    width:300px;
+}
+.buttonE:hover{
+    background-color: rgb(85, 85, 236) !important;
+}

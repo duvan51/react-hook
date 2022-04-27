@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-image: radial-gradient(circle at 4.55% 104.17%, #ff73f9 0, #ff6efc 12.5%, #ff68f8 25%, #f260ec 37.5%, #be55d8 50%, #8c49c0 62.5%, #5f40ab 75%, #333797 87.5%, #003187 100%);
+  margin-top:-25px;
+  color:white;
+  min-height: 100vh;
+  height:auto;
+
+
+}
+
+
+
+@media (min-width:768px){
+  .App {
+    min-height:100vh;
+    height:auto;
+
+  }
+  .tableCrud{
+    display:flex;
+    flex-direction:rows;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .tableCrud>div{
+    width:45%;
+  }
+  .tableCrud>div:nth-child(1){
+    border:solid 1px;
+    height:600px;
+      /*----------------------------------*/
+      background: rgba( 255, 255, 255, 0.25 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 5px );
+      -webkit-backdrop-filter: blur( 5px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+  }
+  
+  
+
+}
+

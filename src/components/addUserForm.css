@@ -1,0 +1,93 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:white;
+}
+form >div{
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+form > div > input{
+    width:80%;
+    height:35px;
+    background:rgb(243, 243, 243);
+    border:none;
+    border-radius:10px;
+    padding-left: 10px;
+}
+form > div > input{
+    width:80%;
+    height:35px;
+    background:rgb(243, 243, 243);
+    border:none;
+    border-radius:10px;
+    padding-left: 10px;
+}
+.name{
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name>div{
+    display:flex;
+    width: 82.5%;
+    gap:5px;
+}
+.name>div>input{
+    width:80%;
+    height:35px;
+    background:rgb(243, 243, 243);
+    border:none;
+    border-radius:10px;
+    padding-left: 10px;
+}
+
+form > div > .button{
+    background-color:green;
+    cursor:pointer;
+    color:white;
+    font-weight: bold;
+    letter-spacing:2px;
+    font-size: 15px;
+    width:300px;
+
+}
+form > div > .button:hover{
+    background-color:rgb(41, 169, 41);
+}
+form>.input{
+    display:flex;
+    text-align: center;
+    padding-left: 18px;
+}
+
+
+@media (min-width:768px){
+   
+   form{
+    display:flex;
+    justify-content: center;
+    gap: 26px;
+
+   }
+   form>.input{
+       display:flex;
+       text-align: center;
+       padding-left: 35px;
+   }
+   
+  
+
+    
+}
